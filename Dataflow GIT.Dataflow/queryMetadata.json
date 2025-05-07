@@ -1,0 +1,28 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow GIT",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "Alphabetical_list_of_products": {
+      "queryId": "de178938-4bf3-4857-9339-a6e6f709ef73",
+      "queryName": "Alphabetical_list_of_products"
+    },
+    "Categories": {
+      "queryId": "4a66abfd-2cc4-4fa0-a69a-b5e8a86d6c33",
+      "queryName": "Categories"
+    },
+    "Category_Sales_for_1997": {
+      "queryId": "143f395a-d5e8-4c1d-93b7-b7954ea2b780",
+      "queryName": "Category_Sales_for_1997"
+    }
+  },
+  "connections": [
+    {
+      "path": "http://services.odata.org/V4/northwind/northwind.svc/",
+      "kind": "OData",
+      "connectionId": "{\"ClusterId\":\"494d148f-d1b6-489e-8a9c-42b01a3fda29\",\"DatasourceId\":\"546f00ce-07a5-4c01-ad3a-991cd1a6233e\"}"
+    }
+  ]
+}
